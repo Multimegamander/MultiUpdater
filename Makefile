@@ -10,7 +10,7 @@ TOPDIR ?= $(CURDIR)
 include $(DEVKITARM)/3ds_rules
 
 APP_TITLE        :=  MultiUpdater
-APP_DESCRIPTION  :=  Updater for FIRM payloads, CIAs, and other files.
+APP_DESCRIPTION  :=  Updater for GodMode9, Luma3DS, and many used homebrew apps.
 APP_AUTHOR       :=  LiquidFenrir
 
 TARGET           :=  MultiUpdater
