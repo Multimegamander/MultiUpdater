@@ -12,10 +12,10 @@
 			"path": "/cias/Anemone3DS.cia"
 		},
 		{
-			"name": "3DSident",
-			"url": "https://github.com/joel16/3DSident",
-			"inrelease": "3DSident-GUI\\.cia",
-			"path": "/cias/3DSident-GUI.cia"
+			"name": "PKSM",
+			"url": "https://github.com/FlagBrew/PKSM",
+			"inrelease": "PKSM\\.cia",
+			"path": "/cias/PKSM.cia"
 		},
 		{
 			"name": "Checkpoint",
@@ -31,24 +31,42 @@
 			"path": "/luma/payloads/GodMode9.firm"
 		},
 		{
-			"name": "Luma3DS (latest commit)",
-			"url": "https://astronautlevel2.github.io/Luma3DS/latest.zip",
-			"inarchive": "out/boot\\.firm",
-			"path": "/boot.firm"
+			"name": "3DShell",
+			"url": "https://github.com/joel16/3DShell",
+			"inarchive": "3DShell\\.cia",
+			"path": "/cias/3DShell.cia"
 		},
 		{
 			"name": "Luma3DS (latest release)",
 			"url": "https://github.com/AuroraWright/Luma3DS",
 			"inrelease": "Luma3DS.*\\.7z",
 			"inarchive": "boot\\.firm",
-			"path": "/boot.firm"
+			"path": "/Luma3DS.firm"
 		},
 		{
 			"name": "CTRNAND Luma3DS (latest release)",
 			"url": "https://github.com/AuroraWright/Luma3DS",
 			"inrelease": "Luma3DS.*\\.7z",
 			"inarchive": "boot\\.firm",
-			"path": "ctrnand:/boot.firm"
+			"path": "ctrnand:/Luma3DS.firm"
+		},
+		{
+			"name": "FBI",
+			"url": "https://github.com/Steveice10/FBI",
+			"inarchive": "FBI\\.cia",
+			"path": "/cias/FBI.cia"
+		},
+		{
+			"name": "Lasagna",
+			"url": "https://github.com/groowlithe/Lasagna",
+			"inarchive": "Lasagna\\.cia",
+			"path": "/cias/Lasagna.cia"
+		},
+				{
+			"name": "Sharkive",
+			"url": "https://github.com/FlagBrew/Sharkive",
+			"inarchive": "Sharkive\\.cia",
+			"path": "/cias/Sharkive.cia"
 		}
 	]
 }
